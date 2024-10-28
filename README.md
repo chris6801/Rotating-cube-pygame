@@ -40,6 +40,6 @@ The cube is stored as a numpy array of each x,y,z point and another numpy array 
     [1, 5],
     [2, 6],
     [3, 7]
-])'
+])`
 
 to be continued...
