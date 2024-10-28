@@ -4,7 +4,6 @@ import pygame
 from pygame.locals import QUIT
 import numpy as np
 from random import randint
-from functools import reduce
 
 pi = np.pi
 cos = np.cos
@@ -27,13 +26,6 @@ cube_points = np.array([
     [1, 0, 1],
     [1, 0, 0],
     [1, 1, 0]
-])
-
-# project to 2d
-projection_2d = np.array([
-    [1, 0, 0],
-    [0, 1, 0],
-    [0, 0, 0]
 ])
 
 cube_indices = np.array([
@@ -102,7 +94,8 @@ print(cube_points)
 
 origin = np.array([175, 225, 25])
 
-# physics
+# i realized later that converting to 2d
+# points with a matrix is totally unnecessary 
 points_2d = cube_points
 
 # rotation matrices
