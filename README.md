@@ -6,5 +6,12 @@ You'll need python obviously. You can download the latest version here:
 https://www.python.org/downloads/
 
 This program uses NumPy and PyGame as dependencies. Using pip you can install them with:
-'pip install numpy'
-'pip install pygame'
+
+`pip install numpy`
+
+`pip install pygame`
+
+# Storing the cube
+The cube is stored as a numpy array of each x,y,z point and another numpy array to describe how to connect each point for each edge of the cube. 
+
+to be continued...
